@@ -8,7 +8,7 @@ let btn2 = document.querySelector('[data-attr="email"]')
 let btn3 = document.querySelector('[data-attr="phone"]')
 
 getAnotherUser.addEventListener("click" ,GetUser);
-
+window.load = GetUser();
 function GetUser(){
     let details = document.getElementById("info")
     details.innerText = " ";
